@@ -1,0 +1,56 @@
+{
+    "tests":[
+        {
+            "id":"test derp",
+            "method":"derp",
+            "conditions":{
+                "expected":[
+                    {
+                        "args":"poop",
+                        "assertion": "gross"
+                    },
+                    {
+                        "args":["hotdog"],
+                        "assertion":"yum"
+                    }
+                ],
+                "unexpected":[
+                    {
+                        "args":[],
+                        "assertion": null
+                    },
+                    {
+                        "args":["T%^U%$#"],
+                        "assertion": null
+                    }
+                ]
+            }
+        },
+        {
+            "id":"test add",
+            "method":"add_two",
+            "conditions":{
+                "expected":[
+                    {
+                        "args":[5, 5],
+                        "assertion": 10
+                    },
+                    {
+                        "args":[2, 3],
+                        "assertion":5
+                    }
+                ],
+                "unexpected":[
+                    {
+                        "args":[],
+                        "assertion": null
+                    },
+                    {
+                        "args":[15, null],
+                        "assertion": null
+                    }
+                ]
+            }
+        }
+    ]
+}
