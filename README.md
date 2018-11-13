@@ -8,7 +8,7 @@ and uses a config file that holds the actual test data in it.
 EARLY STAGES, don't use this yet! _unless you really want to_.
 
 ## Supported Languages
-* python 3
+* python 3+
 
 ## Roadmap
 * go
