@@ -1,4 +1,7 @@
 # New TDD
+
+![new-internet](https://i.ytimg.com/vi/Km5XQxRrQvw/maxresdefault.jpg)
+
 kind of like the new internet...
 
 A different approach to unit tests where the developer just runs a script that crawls their code,
